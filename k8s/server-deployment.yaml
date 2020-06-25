@@ -14,11 +14,11 @@ spec:
         spec:
             containers:
                 - name: server
-                  image: stephengrider/multi-server
+                  image: richardholguing/multi-server
                   resources:
                       limits:
                           memory: "128Mi"
-                          cpu: "100m"
+                          cpu: "500m"
                   ports:
                       - containerPort: 5000
                   env:
