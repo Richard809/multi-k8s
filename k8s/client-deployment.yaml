@@ -17,3 +17,7 @@ spec:
                   image: richardholguing/multi-client
                   ports:
                       - containerPort: 3000
+                  resources:
+                      limits:
+                          cpu: "50m"
+                          memory: "128Mi"
